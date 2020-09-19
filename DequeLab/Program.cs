@@ -16,7 +16,7 @@ namespace DequeLab
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            AppCenter.Start("43ec4bfc-f8af-4ad0-b598-24a5b4fddf03", typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("2f3ec93b-d718-4011-a06d-fd46ad3dad89", typeof(Analytics), typeof(Crashes));
             Application.Run(new MainForm());
         }
         
